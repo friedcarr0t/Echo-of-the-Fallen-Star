@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,13 +131,13 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 0
-        width: 22
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 47, y: 0, z: 58, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -153,13 +153,13 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 178
+        x: 128
         y: 0
-        width: 21
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 49, y: 0, z: 57, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -175,13 +175,13 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 307
+        x: 256
         y: 0
-        width: 28
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 53, y: 0, z: 49, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -197,13 +197,13 @@ TextureImporter:
       name: Walk_3
       rect:
         serializedVersion: 2
-        x: 434
+        x: 384
         y: 0
-        width: 20
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 50, y: 0, z: 58, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -219,13 +219,13 @@ TextureImporter:
       name: Walk_4
       rect:
         serializedVersion: 2
-        x: 560
+        x: 512
         y: 0
-        width: 23
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 48, y: 0, z: 57, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -241,13 +241,13 @@ TextureImporter:
       name: Walk_5
       rect:
         serializedVersion: 2
-        x: 687
+        x: 640
         y: 0
-        width: 28
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 47, y: 0, z: 52, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3952388327025d1478700695f8d11f60
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Walk_0: 4035959289877228764
       Walk_1: -982904232830982447
